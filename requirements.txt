@@ -1,0 +1,2 @@
+pyspark>=3.5.0
+python-logging>=0.4.9.6

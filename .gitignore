@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon cache
+Icon_Format_Unsupported
+Icon_Location_Not_Absolute
+Icon_No_Image
+Icon_Too_Large_For_Cache
+Icon_Bouncing_Not_Allowed
+Icon_Expected_Image_But_Got_File
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.so
+*.log
+*.coverage
+.pytest_cache/
+instance/
+env/
+venv/
+.env
+.venv
+
+# Data files
+*.json
+*.parquet/
+
+# IDE specific
+.vscode/
+.idea/ 
