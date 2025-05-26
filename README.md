@@ -32,11 +32,11 @@ The data processing follows a strict ETL (Extract, Transform, Load) order:
    - Combines data from multiple files and brands
 
 2. **Transform** (`transform.py`):
+   - Drop  unwanted columns
    - Processes postal codes and maps provinces
    - Standardizes geographical coordinates
    - Anonymizes address information (streetName and houseNumber)
    - One-hot encodes handover services
-   - Handles selling partners data
 
 3. **Load** (`load.py`):
    - Implements GDPR-compliant data separation:
