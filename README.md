@@ -224,7 +224,7 @@ The system includes comprehensive error handling:
 ## Logging
 
 Multi-level logging system:
-- DEBUG: Detailed processing information
+- DEBUG: Detailed processing information for diagnosing problems
 - INFO: General process updates
 - WARNING: Non-critical issues
 - ERROR: Operation-blocking issues
