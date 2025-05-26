@@ -49,7 +49,7 @@ The data processing follows a strict ETL (Extract, Transform, Load) order:
 ## Input/Output Examples
 
 ### Input Format
-Input files should follow the pattern: `{brand}-places.json`
+Input files may follow the pattern: `{brand}-*.json`
 
 Example input file (`clp-places.json`):
 ```json
